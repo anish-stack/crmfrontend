@@ -29,9 +29,10 @@ const Cards = () => {
       </div>
 
       {/* Time Card */}
+      {/* I comit for testing */}
       <div className="card">
         <FaClock className="card-icon time-icon" />
-        <div className="card-content">
+        <div className="card-content cardhaibhai">
           <h3>Time</h3>
           {currentTime.toLocaleTimeString('en-IN')}        </div>
       </div>
